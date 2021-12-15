@@ -1,0 +1,78 @@
+{
+  "author": "Dominic Ris",
+  "name": "Loupedeck Plugin Template",
+  "description": "Project template to create a Loupedeck plugin",
+  "identity": "de.xeroxdev.loupedeck-template.1.0",
+  "shortName": "loupedeck-template",
+  "guids": [
+    "A5AF7C35-A903-416A-99F3-535598B5A0E6",
+    "42BE2852-FD3A-408D-8ADD-E1F873537819",
+    "4F22FA49-784C-4DD7-890B-9EA785A09F10"
+  ],
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "Template",
+  "symbols": {
+    "Framework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": ".NETFramework v4.7.2"
+        }
+      ],
+      "defaultValue": ".NETFramework v4.7.2"
+    }
+  },
+  "sources": [
+    {
+      "source": "./",
+      "target": "./",
+      "exclude": [
+        "**/[Bb]in/**",
+        "**/[Oo]bj/**",
+        ".template.config/**/*",
+        "**/*.filelist",
+        "**/*.user",
+        "**/*.lock.json",
+        "**/.git/**",
+        "**/.idea/**",
+        "**packages/**",
+        "**/node_modules/**"
+      ]
+    }
+  ],
+  "postActions": [
+    {
+      "condition": "(!skipRestore)",
+      "description": "Restore NuGet packages required by this project.",
+      "manualInstructions": [
+        {
+          "text": "Run 'dotnet restore'"
+        }
+      ],
+      "actionId": "210D431B-A78B-4D2F-B762-4ED3E3EA9025",
+      "continueOnError": true
+    },
+    {
+      "condition": "(!skipRestore)",
+      "actionId": "3A7C4B45-1F5D-4A30-959A-51B88E82B5D2",
+      "args": {
+        "executable": "pnpm",
+        "args": "install",
+        "redirectStandardOutput": false,
+        "redirectStandardError": false
+      },
+      "manualInstructions": [
+        {
+          "text": "Run 'pnpm install'"
+        }
+      ],
+      "continueOnError": false,
+      "description ": "Restore pnpm packages required by this project."
+    }
+  ]
+}

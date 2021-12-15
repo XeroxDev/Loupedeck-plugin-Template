@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{42BE2852-FD3A-408D-8ADD-E1F873537819}") = "TemplatePlugin", "TemplatePlugin\TemplatePlugin.csproj", "{A5AF7C35-A903-416A-99F3-535598B5A0E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5AF7C35-A903-416A-99F3-535598B5A0E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5AF7C35-A903-416A-99F3-535598B5A0E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5AF7C35-A903-416A-99F3-535598B5A0E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5AF7C35-A903-416A-99F3-535598B5A0E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F22FA49-784C-4DD7-890B-9EA785A09F10}
+	EndGlobalSection
+EndGlobal
