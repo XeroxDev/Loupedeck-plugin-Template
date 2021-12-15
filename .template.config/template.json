@@ -2,7 +2,7 @@
   "author": "Dominic Ris",
   "name": "Loupedeck Plugin Template",
   "description": "Project template to create a Loupedeck plugin",
-  "identity": "de.xeroxdev.loupedeck-template.1.0",
+  "identity": "XeroxDev.Loupedeck.Template",
   "shortName": "loupedeck-template",
   "guids": [
     "A5AF7C35-A903-416A-99F3-535598B5A0E6",
@@ -35,12 +35,17 @@
         ".template.config/**/*",
         "**/*.filelist",
         "**/*.user",
-        "**/*.lock.json",
-        "**/*-lock.json",
+        "**/*lock.json",
         "**/.git/**",
         "**/.idea/**",
         "**packages/**",
-        "**/node_modules/**"
+        "**/node_modules/**",
+        "**/*.nuspec",
+        "**/*.xml",
+        "**/_rels/**",
+        "**/package/**",
+        "**/.github/workflows/**",
+        "**/icon.png"
       ]
     }
   ],

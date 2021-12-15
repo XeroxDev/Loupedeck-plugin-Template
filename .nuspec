@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>XeroxDev.Loupedeck.Template</id>
+        <version>1.0.0</version>
+        <authors>Dominic "XeroxDev" Ris</authors>
+        <owners>XeroxDev</owners>
+        <projectUrl>https://github.com/XeroxDev/Loupedeck-plugin-Template</projectUrl>
+        <license type="expression">MIT</license>
+        <packageTypes>
+            <packageType name="Template"/>
+        </packageTypes>
+        <icon>icon.png</icon> 
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <releaseNotes>Initial release</releaseNotes>
+        <description>
+            This is a Loupedeck .NET Template and I've created this so it is easier and more productive for me, to
+            create Loupedeck Plugins and release them to my users.
+        </description>
+        <copyright>Copyright ©2021 Dominic Ris</copyright>
+        <tags>Framework C# Project Template Loupedeck Plugin</tags>
+        <dependencies>
+            <dependency id="LibZ.Tool" version="1.2.0"/>
+        </dependencies>
+    </metadata>
+
+    <files>
+        <file src="**" exclude="**/[Bb]in/**;**/[Oo]bj/**;**/*.filelist;**/*.user;**/*lock.json;**/.git/**;**/.idea/**;**packages/**;**/node_modules/**" />
+    </files>
+</package>
