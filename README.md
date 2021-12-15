@@ -16,17 +16,16 @@ This is a Loupedeck .NET Template and I've created this so it is easier and more
 - Uses husky to ensure commits are correctly
 
 # 4. How to use it
-1. Clone this repository
-2. Install it to your dotnet templates (``dotnet new -i ./path/to/template``)
-3. Create a project from template (``dotnet new loupedeck-template -n PROJECT_NAME``)
-4. If not worked automatically, restore nuget packages with ``nuget restore``
-5. Install (p)npm packages. Prefered pnpm, but also works with vanilla npm (``pnpm install``)
-6. If you installed your loupedeck to a different location, change it in your .csproj file (``<LoupedeckInstallation>...</LoupedeckInstallation>``)
-7. Change plugin information in the metadata files (``/LoupedeckPackage.yaml``, ``/package.json``, ``/ProjectNamePlugin/PluginConfiguration.json``, ``/ProjectNamePlugin/Properties/AssemblyInfo.cs`` and so on)
-8. Start coding your plugin
-9. Debug code with ``Debug|AnyCPU`` profile
-10. To create installer, choose the ``Release|AnyCPU`` profile and build project
-11. Release your ``.lplug4``
+1. Install the template (``dotnet new -i XeroxDev.Loupedeck.Template``)
+2. Create a project from template (``dotnet new loupedeck-template -n PROJECT_NAME``)
+3. If not worked automatically, restore nuget packages with ``nuget restore``
+4. Install (p)npm packages. Prefered pnpm, but also works with vanilla npm (``pnpm install``)
+5. If you installed your loupedeck to a different location, change it in your .csproj file (``<LoupedeckInstallation>...</LoupedeckInstallation>``)
+6. Change plugin information in the metadata files (``/LoupedeckPackage.yaml``, ``/package.json``, ``/ProjectNamePlugin/PluginConfiguration.json``, ``/ProjectNamePlugin/Properties/AssemblyInfo.cs`` and so on)
+7. Start coding your plugin
+8. Debug code with ``Debug|AnyCPU`` profile
+9. To create installer, choose the ``Release|AnyCPU`` profile and build project
+10. Release your ``.lplug4``
 
 
 # 5. Support / Feedback
