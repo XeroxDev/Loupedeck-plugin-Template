@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>XeroxDev.Loupedeck.Template</id>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
         <authors>Dominic "XeroxDev" Ris</authors>
         <owners>XeroxDev</owners>
         <projectUrl>https://github.com/XeroxDev/Loupedeck-plugin-Template</projectUrl>
@@ -12,7 +12,7 @@
         </packageTypes>
         <icon>icon.png</icon> 
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <releaseNotes>Initial release</releaseNotes>
+        <releaseNotes>Remove unnecessary files from template</releaseNotes>
         <description>
             This is a Loupedeck .NET Template and I've created this so it is easier and more productive for me, to
             create Loupedeck Plugins and release them to my users.

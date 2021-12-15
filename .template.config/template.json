@@ -45,7 +45,8 @@
         "**/_rels/**",
         "**/package/**",
         "**/.github/workflows/**",
-        "**/icon.png"
+        "**/icon.png",
+        "**/*.p7s"
       ]
     }
   ],
