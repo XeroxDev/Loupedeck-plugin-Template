@@ -15,6 +15,7 @@ This is a Loupedeck .NET Template and I've created this so it is easier and more
 - Uses conventionalcommits to better organize commit history and is helping changelog generation
 - Includes github repository workflow (to enable, go into .github/workflows and rename to release.yml)
 - Includes github repository issue templates
+- Includes giant/useful `.gitignore` file
 
 # 4. How to use it
 1. Install the template (``dotnet new -i XeroxDev.Loupedeck.Template``)
