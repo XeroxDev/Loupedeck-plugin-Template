@@ -1,3 +1,9 @@
+## v2.0.1 (2022-05-11)
+
+### Fix
+
+- not detected as template
+
 ## v2.0.0 (2022-05-11)
 
 ### Feat
