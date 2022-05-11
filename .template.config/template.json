@@ -44,7 +44,7 @@
         "**/*.xml",
         "**/_rels/**",
         "**/package/**",
-        "**/.github/workflows/**",
+        "**/.github/workflows/*.yml",
         "**/icon.png",
         "**/*.p7s"
       ]

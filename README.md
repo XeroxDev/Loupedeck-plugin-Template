@@ -11,9 +11,8 @@ This is a Loupedeck .NET Template and I've created this so it is easier and more
 # 3. Features
 - On release-build, creates automatically a installer (lplug4 file) for the plugin
 - Has support for git
-- Uses standard-version to automatically bump version, generates changelog and tags it
+- Uses commitizen and github workflow to automatically bump version, generates changelog and tags it
 - Uses conventionalcommits to better organize commit history and is helping changelog generation
-- Uses husky to ensure commits are correctly
 
 # 4. How to use it
 1. Install the template (``dotnet new -i XeroxDev.Loupedeck.Template``)

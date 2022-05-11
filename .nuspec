@@ -25,6 +25,6 @@
     </metadata>
 
     <files>
-        <file src="**" exclude="**/[Bb]in/**;**/[Oo]bj/**;**/*.filelist;**/*.user;**/*lock.json;**/.git/**;**/.idea/**;**packages/**;**/node_modules/**" />
+        <file src="**" exclude="**/[Bb]in/**;**/[Oo]bj/**;**/*.filelist;**/*.user;**/*lock.json;**/.git/**;**/.idea/**;**packages/**;**/node_modules/**;**/nuget.yml" />
     </files>
 </package>
