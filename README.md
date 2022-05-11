@@ -6,7 +6,7 @@
 - [5. Support / Feedback](#5-support--feedback)
 
 # 2. What is this template
-This is a Loupedeck .NET Template and I've created this so it is easier and more productive for me, to create Loupedeck Plugins and release them to my users.
+This is a Loupedeck .NET Template and I've created this so it is easier and more productive for me, to create Loupedeck Windows Plugins and release them to my users.
 
 # 3. Features
 - On release-build, creates automatically a installer (lplug4 file) for the plugin
