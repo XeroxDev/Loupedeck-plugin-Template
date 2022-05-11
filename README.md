@@ -14,6 +14,7 @@ This is a Loupedeck .NET Template and I've created this so it is easier and more
 - Uses commitizen and github workflow to automatically bump version, generates changelog and tags it
 - Uses conventionalcommits to better organize commit history and is helping changelog generation
 - Includes github repository workflow (to enable, go into .github/workflows and rename to release.yml)
+- Includes github repository issue templates
 
 # 4. How to use it
 1. Install the template (``dotnet new -i XeroxDev.Loupedeck.Template``)
