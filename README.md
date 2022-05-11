@@ -16,6 +16,7 @@ This is a Loupedeck .NET Template and I've created this so it is easier and more
 - Includes github repository workflow (to enable, go into .github/workflows and rename to release.yml)
 - Includes github repository issue templates
 - Includes giant/useful `.gitignore` file
+- Includes run/debug options (for rider). **Please double check the execution path!**
 
 # 4. How to use it
 1. Install the template (``dotnet new -i XeroxDev.Loupedeck.Template``)
