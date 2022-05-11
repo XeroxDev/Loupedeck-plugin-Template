@@ -11,4 +11,7 @@ supportedDevices:
 
 pluginFileName: TemplatePlugin.dll
 pluginFolderWin: ./bin/win/
-pluginFolderMac: ./bin/mac/
+license: MIT
+licenseUrl: https://opensource.org/licenses/MIT
+homePageUrl: https://help.xeroxdev.de
+supportPageUrl: https://s.tswi.me/discord
