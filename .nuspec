@@ -25,6 +25,6 @@
     </metadata>
 
     <files>
-        <file src="**" exclude="**/bin/**;**/obj/**;.template.config/**/*;**/*.filelist;**/*.user;**/*lock.json;**/.git/**;**/.idea/**;**packages/**;**/node_modules/**;**/*.nuspec;**/*.xml;**/_rels/**;**/package/**;**/.github/workflows/*.yml;**/*.p7s"/>
+        <file src="**" exclude="**/bin/**;**/obj/**;**/*.filelist;**/*.user;**/*lock.json;**/.git/**;**/.idea/**;**packages/**;**/node_modules/**;**/*.nuspec;**/*.xml;**/_rels/**;**/package/**;**/.github/workflows/*.yml;**/*.p7s"/>
     </files>
 </package>
