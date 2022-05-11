@@ -31,8 +31,8 @@ jobs:
       - name: Push
         shell: bash
         env:
-          NUGET_KEY: ${{ secrets.NUGET }}
-        run: nuget push ./*.nupkg -NonInteractive -src https://api.nuget.org/v3/index.json -ApiKey $NUGET_KEY
+          NUGET_KEY: ${{ secrets.NUGET_KEY }}
+        run: nuget push *.nupkg -NonInteractive -ApiKey $NUGET_KEY -src https://api.nuget.org/v3/index.json
       - name: Create release
         uses: softprops/action-gh-release@v1
         with:
