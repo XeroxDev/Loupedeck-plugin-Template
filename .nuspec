@@ -12,7 +12,7 @@
         </packageTypes>
         <icon>icon.png</icon>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <releaseNotes>Remove unnecessary files from template</releaseNotes>
+        <releaseNotes>For changelog, please see CHANGELOG.md</releaseNotes>
         <description>
             This is a Loupedeck .NET Template and I've created this so it is easier and more productive for me, to
             create Loupedeck Plugins and release them to my users.
@@ -27,6 +27,6 @@
     <files>
         <file src="TemplateFiles/**/*" exclude="obj/**;packages/**;**/*.user;"/>
         <file src="icon.png"/>
-        <file src=".template.config/**"/>
+        <file src=".template.config/*.*" target=".template.config"/>
     </files>
 </package>
