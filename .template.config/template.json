@@ -25,31 +25,39 @@
         }
       ],
       "defaultValue": ".NETFramework v4.7.2"
+    },
+    "AddSln": {
+      "datatype": "bool",
+      "description": "Add a solution file to the project.",
+      "type": "parameter",
+      "defaultValue": "false"
+    },
+    "CreateInRoot": {
+      "datatype": "bool",
+      "description": "Create the project in the root folder",
+      "type": "parameter",
+      "defaultValue": "false"
     }
   },
+  "defaultName": "Awesome",
   "sources": [
     {
-      "exclude": [
-        "**/[Bb]in/**",
-        "**/[Oo]bj/**",
-        ".template.config/**/*",
-        "**/*.filelist",
-        "**/*.user",
-        "**/*lock.json",
-        "**/.git/**",
-        "**/.idea/**",
-        "**packages/**",
-        "**/node_modules/**",
-        "**/*.nuspec",
-        "**/*.xml",
-        "**/_rels/**",
-        "**/package/**",
-        "**/.github/workflows/*.yml",
-        "**/icon.png",
-        "**/*.p7s"
-      ]
+      "source": "TemplateFiles/Solution"
+    },
+    {
+      "source": "TemplateFiles/Project",
+      "condition": "!CreateInRoot"
+    },
+    {
+      "source": "TemplateFiles/Project/Template",
+      "condition": "CreateInRoot"
+    },
+    {
+      "source": "TemplateFiles/SolutionFile",
+      "condition": "AddSln"
     }
   ],
+  "preferNameDirectory": true,
   "postActions": [
     {
       "condition": "(!skipRestore)",

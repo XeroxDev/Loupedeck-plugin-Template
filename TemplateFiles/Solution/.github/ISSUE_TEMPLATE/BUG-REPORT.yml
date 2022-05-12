@@ -1,0 +1,34 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: <title>"
+labels: ["Type: Bug"]
+body:
+- type: checkboxes
+  attributes:
+    label: Consent
+    options:
+    - label: I have searched the existing issues and verified that there is no open issue for the same subject.
+      required: true
+- type: textarea
+  attributes:
+    label: Current Behavior
+    description: A concise description of what you're experiencing.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Expected Behavior
+    description: A concise description of what you expected to happen.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Steps To Reproduce
+    description: Steps to reproduce the behavior.
+    placeholder: |
+      1. Go to '...'
+      2. Click on '....'
+      3. Scroll down to '....'
+      4. See error
+  validations:
+    required: true

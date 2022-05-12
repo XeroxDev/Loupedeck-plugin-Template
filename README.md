@@ -21,15 +21,17 @@ This is a Loupedeck .NET Template and I've created this so it is easier and more
 # 4. How to use it
 1. Install the template (``dotnet new -i XeroxDev.Loupedeck.Template``)
 2. Create a project from template (``dotnet new loupedeck-template -n PROJECT_NAME``)
+   - **If you create a project with an IDE, please check "Put solution and project in the same folder" or similar option.** 
+   - Available options:
+     - `--AddSln` Add a solution file to the project.
+     - `--CreateInRoot` Create the project in the root folder
 3. If not worked automatically, restore nuget packages with ``nuget restore``
-4. Install (p)npm packages. Prefered pnpm, but also works with vanilla npm (``pnpm install``)
-5. If you installed your loupedeck to a different location, change it in your .csproj file (``<LoupedeckInstallation>...</LoupedeckInstallation>``)
-6. Change plugin information in the metadata files (``/LoupedeckPackage.yaml``, ``/package.json``, ``/ProjectNamePlugin/PluginConfiguration.json``, ``/ProjectNamePlugin/Properties/AssemblyInfo.cs`` and so on)
-7. Start coding your plugin
-8. Debug code with ``Debug|AnyCPU`` profile
-9. To create installer, choose the ``Release|AnyCPU`` profile and build project
-10. Release your ``.lplug4``
-
+4. If you installed your loupedeck to a different location, change it in your .csproj file (``<LoupedeckInstallation>...</LoupedeckInstallation>``)
+5. Change plugin information in the metadata files (``/LoupedeckPackage.yaml``, ``/package.json``, ``/ProjectNamePlugin/PluginConfiguration.json``, ``/ProjectNamePlugin/Properties/AssemblyInfo.cs`` and so on)
+6. Start coding your plugin
+7. Debug code with ``Debug|AnyCPU`` profile
+8. To create installer, choose the ``Release|AnyCPU`` profile and build project
+9. Release your ``.lplug4``
 
 # 5. Support / Feedback
 Feel free to join our discord [here](https://s.tswi.me/discord)!

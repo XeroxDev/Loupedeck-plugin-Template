@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>XeroxDev.Loupedeck.Template</id>
-        <version>2.0.1</version>
+        <version>2.0.2-beta</version>
         <authors>Dominic "XeroxDev" Ris</authors>
         <owners>XeroxDev</owners>
         <projectUrl>https://github.com/XeroxDev/Loupedeck-plugin-Template</projectUrl>
@@ -25,6 +25,8 @@
     </metadata>
 
     <files>
-        <file src="**" exclude="**/bin/**;**/obj/**;**/*.filelist;**/*.user;**/*lock.json;**/.git/**;**/.idea/**;**packages/**;**/node_modules/**;**/*.nuspec;**/*.xml;**/_rels/**;**/package/**;**/.github/workflows/*.yml;**/*.p7s"/>
+        <file src="TemplateFiles/**/*" exclude="obj/**;packages/**;**/*.user;"/>
+        <file src="icon.png"/>
+        <file src=".template.config/**"/>
     </files>
 </package>

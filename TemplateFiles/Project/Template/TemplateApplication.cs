@@ -1,4 +1,4 @@
-namespace Loupedeck.TemplatePlugin
+namespace Loupedeck.Template
 {
     using System;
 

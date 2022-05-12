@@ -1,8 +1,8 @@
-namespace Loupedeck.TemplatePlugin
+namespace Loupedeck.Template
 {
     using System;
 
-    public class TemplatePlugin : Plugin
+    public class Template : Plugin
     {
         public override void Load()
         {

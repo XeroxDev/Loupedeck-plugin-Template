@@ -9,7 +9,7 @@ supportedDevices:
   - LoupedeckCt
   - LoupedeckLive
 
-pluginFileName: TemplatePlugin.dll
+pluginFileName: Template.dll
 pluginFolderWin: ./bin/win/
 license: MIT
 licenseUrl: https://opensource.org/licenses/MIT
