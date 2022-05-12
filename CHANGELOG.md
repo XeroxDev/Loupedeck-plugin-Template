@@ -1,3 +1,9 @@
+## v2.1.0 (2022-05-12)
+
+### Feat
+
+- add more options and change structure
+
 ## v2.0.1 (2022-05-11)
 
 ### Fix
