@@ -42,18 +42,18 @@
   "defaultName": "Awesome",
   "sources": [
     {
-      "source": "TemplateFiles/Solution"
+      "source": "Solution"
     },
     {
-      "source": "TemplateFiles/Project",
+      "source": "Project",
       "condition": "!CreateInRoot"
     },
     {
-      "source": "TemplateFiles/Project/Template",
+      "source": "Project/Template",
       "condition": "CreateInRoot"
     },
     {
-      "source": "TemplateFiles/SolutionFile",
+      "source": "SolutionFile",
       "condition": "AddSln"
     }
   ],
