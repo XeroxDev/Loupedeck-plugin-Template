@@ -1,3 +1,9 @@
+## v2.1.1 (2022-05-12)
+
+### Fix
+
+- installation error occurs
+
 ## v2.1.0 (2022-05-12)
 
 ### Feat
